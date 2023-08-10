@@ -1,0 +1,29 @@
+### list of all products
+GET  http://localhost:3000/products
+
+
+### create a product 
+POST http://localhost:3000/products
+Content-Type: application/json
+
+{
+    "name":"mac pro",
+    "price":6000
+}
+
+### Get a product
+GET  http://localhost:3000/products/64d46c04d8ba8f7b9b5e8501
+
+
+
+### Update a product
+PATCH http://localhost:3000/products/64d46ba0d8ba8f7b9b5e84fc
+Content-Type: application/json
+
+{
+    "name":"Imac pro",
+    "price":3000    
+}
+
+### Delete a product 
+DELETE  http://localhost:3000/products/64d46ba0d8ba8f7b9b5e84fc
