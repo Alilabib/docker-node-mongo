@@ -1,4 +1,7 @@
 ### list of all products
+GET  http://localhost:3000/export
+
+### list of all products
 GET  http://localhost:3000/products
 
 
